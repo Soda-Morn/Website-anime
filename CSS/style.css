@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: rgb(209, 52, 31);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.heading{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 65px;
+}
+.head-bar ul{
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    gap: 40px;
+}
+.head-bar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(236, 227, 227);
+}
+.head-bar ul li a:hover{
+    background-color: rgb(119, 114, 114);
+    border-radius: 15px;
+}
+.background{
+    background-image: url(../image/Backgound\ of\ website.jpg);
+    height: 75vh;
+    background-position: center;
+}
+section .body{
+    width: 40%;
+    position: relative;
+    left: 100px;
+    top: 140px;
+}
+.body h3{
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 42px;
+    color: rgb(143, 18, 18);
+    margin-bottom: 20px;
+}
+.body p{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    color: rgb(61, 35, 35);
+}
+.body button{
+    border-radius: 25px;
+    border: solid 2px white;
+    background: none;
+    padding: 10px;
+    width: 150px;
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+}
+.body button:hover{
+    background-color: gray;
+}
+main .hero{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 50%;
+}
+.left h3{
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.left p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 50px;
+}
+.right img{
+    width: 400px;
+}
+
