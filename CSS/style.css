@@ -70,6 +70,7 @@ section .body{
     color: brown;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 .body button:hover{
     background-color: gray;
@@ -86,8 +87,8 @@ main .hero{
     width: 50%;
 }
 .left h3{
-    font-size: 36px;
-    font-family: sans-serif;
+    font-size: 30px;
+    font-family: "Moul", system-ui;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -99,5 +100,132 @@ main .hero{
 }
 .right img{
     width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-
+section .Movie{
+    margin-bottom: 250px;
+}
+section .Movie h3{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Moul", system-ui;
+    font-size: 30px;
+    
+}
+.Movie, p{
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+section .contain-box{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.box1{
+    width: 350px;
+    height: 300px;
+}
+.box1 img{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box1 h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.box1 p{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    width: 75%;
+    margin: auto;
+}
+.box2{
+    width: 350px;
+    height: 300px;
+}
+.box2 img{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box2 h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.box2 p{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    width: 75%;
+    margin: auto;
+}
+.box3{
+    width: 350px;
+    height: 300px;
+}
+.box3 img{
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box3 h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.box3 p{
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 25px;
+    width: 75%;
+    margin: auto;
+}
+.background-02{
+    background-image: url(../image/Background\ 02.png);
+    height: 80vh;
+    background-position: center 470px;
+    background-size: 100%;
+    margin-bottom: 200px;
+}
+.body-02{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+.body-02 h3{
+    font-family: cursive;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.body-02 p{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 50%;
+    text-align: justify;
+    text-indent: 25px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.body-02 button{
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background: teal;
+    color: white;
+    cursor: pointer;
+}
+.body-02 button:hover{
+    background-color: red;
+}
