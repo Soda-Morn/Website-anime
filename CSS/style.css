@@ -195,7 +195,7 @@ section .contain-box{
     height: 80vh;
     background-position: center 470px;
     background-size: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 .body-02{
     text-align: center;
@@ -228,4 +228,68 @@ section .contain-box{
 }
 .body-02 button:hover{
     background-color: red;
+}
+section .hero-2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+main section .hero-2 .left img{
+    width: 500px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+main section .hero-2 .right{
+    text-align: center;
+    width: 40%;
+}
+main section .hero-2 .right h4{
+    font-family: "Moul", system-ui;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+main section .hero-2 .right p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 20px;
+}
+footer{
+    background-color:  rgb(209, 52, 31);
+}
+footer .con-tact{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+footer .contact{
+    text-align: center;
+    padding: 17px;
+}
+footer .contact h5{
+    font-family: cursive;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+footer .contact ul{
+    list-style: none;
+}
+footer .contact ul li{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+    text-align: justify;
+}
+footer .icon{
+    display: flex;
+    align-items: center;
+}
+footer .icon i{
+    font-size: 35px;
+    padding: 10px;
+    color: white;
 }
